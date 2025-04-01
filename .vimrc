@@ -1,32 +1,26 @@
-" Don't try to be vi compatible
+" not vi compatible
 set nocompatible
-
-" Syntax highlighting
-syntax on
-
-" Security
+" synatax highlighting
+syntax enable 
+" for security
 set modelines=0
-
-" Show line numbers
-set number
-
-" Show file stats
+" line numbers
+set relativenumber
+" show file stats
 set ruler
-
-" Encoding
+" encoding
 set encoding=utf-8
-
-" Whitespace
+" whitespace
 set wrap
 set textwidth=79
 set formatoptions=tcqrn1
-" Tabs exapnd into spaces
+" tabs expand into spaces
 set shiftwidth=4 smarttab
 set expandtab
-" Set tabstops to be different from indentation width
-" so I know if theres a tab
+" set tabstops to be different from indentation width
+" so I know if there's a tab
 set tabstop=8 softtabstop=0
-
+" theme
 set background=dark
 colorscheme gruvbox
 
