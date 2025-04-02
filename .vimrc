@@ -6,6 +6,7 @@ syntax enable
 set modelines=0
 " line numbers
 set relativenumber
+set number
 " show file stats
 set ruler
 " encoding
